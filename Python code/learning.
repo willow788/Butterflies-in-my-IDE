@@ -1,0 +1,27 @@
+hi!
+this is the file that stores all the rambling that i'll type
+basically all the new things that i learned making these two butterflies.
+alright both the butterflies are the same but still it's good practice.
+
+i think it would be better if i write a line by line explanation of the code, then also give what i learned new from it,
+so open up another browser and split the screen into two halves.
+
+in the 1st 4 lines, we are importing all the assets that we will be requiring to make the graph
+
+then after a gap
+we are initialising the screen and also setting the color of the screen to black, well we're giving the screen a title, and also setting up the basic dimensions of the screen. 900 x 900 right now.
+
+then an another gap..  
+then we're initialising the speed of the pen and also specifying the color of the pen and the size of the pen otherwise it won't be visible
+
+then an another gap..
+we're initialising the screen.tracer.. so that we can see the drawing process not only the output final
+
+then after a gap..
+we are specifying the no. of points, update_every which means that the screen will be updated every 8 seconds and also specifying a delay of 0.002 seconds and a margin too.
+
+then we have another gap..
+we are precomputing the points
+min_y min_y max_x, max_y so that we can very easily determine the bounding box
+
+then we're running the main loop , which will draw the butterfly
